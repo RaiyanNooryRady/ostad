@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        details{
+            color: red;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="alert('hello')">click me</button>
+    <details>
+        <summary>hello world this is inside summary tag</summary>
+        <p>this is p tag for additional information of users.</p>
+    </details>
+    <button onclick="document.getElementById('myDialog').showModal();">open dialog</button>
+    <dialog id="myDialog">
+        this is a dialog.
+        <button onclick="document.getElementById('myDialog').close()">close dialog</button>
+    </dialog>
+    <dialog>hello</dialog>
+</body>
+</html>
