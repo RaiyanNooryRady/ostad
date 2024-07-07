@@ -46,11 +46,16 @@ body{
     margin: 15px;
     border-radius: 5px;
     /* box-shadow: 0 2px 4px 0 rgba(206, 204, 204, 0.1); */
+    display: inline-block;
+    overflow: hidden;
 }
 .card-img img{
     width: 100%;
     height: auto;
     border-radius: 10px;
+}
+.card-img img:hover{
+    transform: scale(1.09);
 }
 .card-tag{
     color: white;
