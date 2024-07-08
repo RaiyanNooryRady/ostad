@@ -1,0 +1,13 @@
+#buttons{
+    margin: 100px;
+
+}
+button{
+    margin:35px;
+}
+#btn9{
+    background-color: #6135F2;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
